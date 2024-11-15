@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developing Event Reccomendation System</title>
+
+    <!--swiper css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="#" class="logo"><span>G</span>NIOT</a>
+
+      <nav class="navbar">
+        <a href="Home.html">home</a>
+        <a href="services.html">service</a>
+        <a href="about.html">about</a>
+        <a href="Gallery.html">gallery</a>
+        <a href="contact.html">contact</a>
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+    <!-- home section starts  -->
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+      
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <form action="C:\xampp\htdocs/connect.php " method="post">
+        
+          <div class="inputBox">
+          <input type="text"  name="name"  placeholder="name" />
+          <input type="email" name="email"  placeholder="email" />  
+        </div>
+        <div class="inputBox">
+          <input type="tel"  name="contact"   placeholder="Contact Number" />
+          <input type="text" name="occasion" placeholder="Occasion" /> 
+        </div>
+        <div class="inputBox">
+          <input type="text" name="BG"   placeholder="bride/Groom " />
+          <input type="text" name="offer_price"    placeholder="offer price"/>
+        </div>
+        <textarea
+          name="message"
+          placeholder="message" 
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" name="Details" value="send message" class="btn" />
+        
+      </form>
+    </section>
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>location</span>on Google</h1>
+
+      <div class="row">
+        <div class="image">
+          <a href="https://www.google.com/maps/place/GNIOT+Group+of+Institutions/@28.4607616,77.4939127,17z/data=!3m1!4b1!4m6!3m5!1s0x390cc1ddc0000001:0xfc29bf57c9c17cf1!8m2!3d28.4607569!4d77.4964876!16s%2Fm%2F0zdkrkw?entry=ttu">
+
+    
+          <img src="images/map.jpg" alt="" />
+        </a>
+        </div>
+
+        
+      </div>
+    </section>
+
+    
+    
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>branches</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Lucknow </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> 8090350566 </a>
+          <a href="#"> <i class="fas fa-phone"></i> 6393394233 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> Gniot@gmail.com </a>
+          <a href="#"> <i class="fas fa-envelope"></i> visheshagarwal@gmail.com </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> Greater Noida, india - 201310
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>gniot</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- theme toggler  -->
+    <div class="theme-toggler">
+      <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>choose color</h3>
+
+      <div class="buttons">
+        <div class="theme-btn" style="background: #ccff33"></div>
+        <div class="theme-btn" style="background: #d35400"></div>
+        <div class="theme-btn" style="background: #f39c12"></div>
+        <div class="theme-btn" style="background: #1abc9c"></div>
+        <div class="theme-btn" style="background: #3498db"></div>
+        <div class="theme-btn" style="background: #9b59b6"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--JS file-->
+    <script src="app.js"></script>
+  </body>
+</html>
